@@ -1,0 +1,26 @@
+---
+import { type installationData } from "@/config/landing.interface.ts";
+
+interface Props {
+  data: installationData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="section-installation" class="mt-48">
+  <h1 class="text-4xl text-center font-semibold md:text-6xl">
+    {data.title}
+  </h1>
+  <div
+    class="bg-slate-700/5 w-full flex justify-center items-center mt-10 p-10 rounded-md flex-col"
+  >
+    <p class="text-xl mb-10 w-full flex justify-end hover:font-bold hover:text-primary">
+      <a
+        href="https://github.com/AND3SIL4/whatsapp-project/blob/main/README.md"
+        target="_blank">Seguir los pasos de instalación</a
+      >
+    </p>
+    <img class="hover:scale-110 transition-all duration-500 hover:cursor-crosshair" src={data.img} alt={data.imageAlt} title={data.imageAlt} />
+  </div>
+</section>

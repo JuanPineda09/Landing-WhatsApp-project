@@ -1,0 +1,51 @@
+---
+import type { Icon } from "@/config/landing.interface";
+import CheckIcon from "@/icons/commons/CheckIcon.astro";
+import ConfigIcon from "@/icons/commons/UserIcon.astro";
+import DevIcon from "@/icons/commons/DevIcon.astro";
+import FileIcon from "@/icons/commons/FileIcon.astro";
+import PlanetIcon from "@/icons/commons/NotificationIcon.astro";
+import FacebookIcon from "@/icons/socials/TesolucionaIcon.astro";
+import GithubIcon from "@/icons/socials/GithubIcon.astro";
+import TwitterIcon from "@/icons/socials/WebsiteIcon.astro";
+import NetlifyIcon from "@/icons/techs/TwilioIcon.astro";
+import ReactIcon from "@/icons/techs/ReactIcon.astro";
+import SolidIcon from "@/icons/techs/AstroIcon.astro";
+import SvelteIcon from "@/icons/techs/VercelIcon.astro";
+import VercelIcon from "@/icons/techs/TypescriptIcon.astro";
+import VueIcon from "@/icons/techs/NodeIcon.astro";
+
+interface Props {
+  icon: Icon;
+  class?: string;
+}
+
+const { icon, class: className } = Astro.props;
+
+const icons = [
+  ConfigIcon,
+  DevIcon,
+  FileIcon,
+  PlanetIcon,
+  CheckIcon,
+  FacebookIcon,
+  GithubIcon,
+  TwitterIcon,
+  ReactIcon,
+  SvelteIcon,
+  VueIcon,
+  NetlifyIcon,
+  SolidIcon,
+  VercelIcon,
+];
+
+let figures: Record<string, (_props: Record<string, unknown>) => unknown> = {};
+
+icons.map((item) => {
+  figures[item.name] = item;
+});
+
+const Figure = figures[icon];
+---
+
+{Figure ? <Figure class:list={[className]} /> : <p>Icon not found</p>}

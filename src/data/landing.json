@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Landing page proyecto WhatsApp",
+    "description": "Landing page para el proyecto de WhatsApp para la empresa Comestibles Ricos S.A.",
+    "lang": "es",
+    "charset": "UTF-8",
+    "ldJson": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Landing page proyecto WhatsApp",
+      "description": "El",
+      "url": "https://landing-whatsapp-project.vercel.app/",
+      "logo": "./public/favicon.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "luna-landing@luna.com",
+        "contactType": "Client Service"
+      },
+      "sameAs": [
+        "https://www.twitter.com/yourpage",
+        "https://www.instagram.com/yourpage",
+        "https://www.linkedin.com/company/yourpage"
+      ]
+    }
+  },
+  "headerData": {
+    "logo": "Proyecto WhatsApp",
+    "links": [
+      { "label": "Sobre proyecto", "href": "#" },
+      { "label": "Servicios", "href": "#services-section" },
+      { "label": "Beneficios", "href": "#adventajes-section" },
+      { "label": "Tecnologías", "href": "#technologies-used" },
+      { "label": "Instalación", "href": "#section-installation" }
+    ]
+  },
+  "heroData": {
+    "title": "Mantiene a sus Clientes de Informados usando: ",
+    "subTitle": "Mejora la experiencia del cliente con Twilio y WhatsApp, enviando notificaciones instantáneas sobre el estado de los pedidos.",
+    "primaryCta": "Código fuente",
+    "secondaryCta": "Comestibles Ricos S.A",
+    "highlightedTitle": "WhatsApp Project"
+  },
+  "servicesData": {
+    "title": "Servicios que se ofrecen con el WhatsApp Project",
+    "services": [
+      {
+        "title": "Gestión de Pedidos y Reducción de Casos",
+        "icon": "FileIcon",
+        "description": "Optimiza la administración de pedidos con una comunicación fluida y eficiente, reduciendo tiempos de respuesta y reporte de tickets relacionados a desconocimiento del estado del pedido."
+      },
+      {
+        "title": "Integración de Twilio y WhatsApp",
+        "icon": "DevIcon",
+        "description": "Conecta nuestros sistemas con Twilio y WhatsApp para enviar notificaciones automáticas sobre el estado de los pedidos durante todo su ciclo."
+      },
+      {
+        "title": "Notificaciones en Tiempo Real",
+        "icon": "NotificationIcon",
+        "description": "Informa a los clientes de Comestibles Ricos S.A (Distribuidores y Coordinadores) al instante sobre actualizaciones de sus pedidos mediante mensajes de WhatsApp."
+      },
+
+      {
+        "title": "Personalización de Mensajes",
+        "icon": "UserIcon",
+        "description": "Envía mensajes personalizados para mejorar la experiencia del cliente y fortalecer la relación con ellos."
+      }
+    ]
+  },
+  "adventajesData": {
+    "title": "Ventajas de WhatsApp Project",
+    "adventajes": [
+      {
+        "title": "Optimización y mejora de la comunicación interpretativa",
+        "description": "Internamente, nuestra integración de Twilio y WhatsApp está diseñada para optimizar la comunicación con los clientes y mejorar la gestión de pedidos. Aquí destacamos tres ventajas clave sobre la competencia",
+        "img": "template.webp",
+        "imageAlt": "this is an image about the template service advantages",
+        "checks": [
+          "+ Efectividad pedidos",
+          "+ Eficiencia Operativa",
+          "- Tickets",
+          "+ Comunicación efectiva"
+        ]
+      },
+      {
+        "title": "Facilidad de Implementación",
+        "description": "WhatsApp Project se destaca por su facilidad de implementación, diseñada para integrarse rápidamente con los sistemas existentes sin complicaciones.",
+        "img": "seo.webp",
+        "imageAlt": "this is an image about the SEO adventajes",
+        "checks": [
+          "Proceso Intuitivo, Ágil y desatendido",
+          "Documentación y Soporte Completo",
+          "Compatibilidad Amplia"
+        ]
+      }
+    ]
+  },
+  "brandsData": {
+    "title": "Tecnologías integradas en este proyecto",
+    "description": "Nuestro servicio de integración se basa en tecnologías de vanguardia que aseguran una comunicación eficiente y fiable. Aquí te presentamos las principales tecnologías utilizadas",
+    "brands": [
+      {
+        "label": "Twilio",
+        "icon": "TwilioIcon",
+        "href": "https://www.twilio.com/"
+      },
+      { "label": "Nodejs", "icon": "NodeIcon", "href": "https://nodejs.org/" },
+      {
+        "label": "React",
+        "icon": "ReactIcon",
+        "href": "https://react.dev/"
+      },
+      {
+        "label": "Astro",
+        "icon": "AstroIcon",
+        "href": "https://www.astro.build/"
+      },
+      {
+        "label": "Typescript",
+        "icon": "TypescriptIcon",
+        "href": "https://www.typescriptlang.org/"
+      },
+      {
+        "label": "Vercel",
+        "icon": "VercelIcon",
+        "href": "https://www.netlify.com/"
+      }
+    ]
+  },
+  "footerData": {
+    "logo": "Proyecto WhatsApp Landing",
+    "description": "Developed by Felipe Silva based on Luna Landing Astro Theme",
+    "socials": [
+      { "icon": "TesolucionaIcon", "href": "https://soporte.superricas.com/" },
+      { "icon": "WebsiteIcon", "href": "https://superricas.com/" },
+      { "icon": "GithubIcon", "href": "https:github.com/AND3SIL4" }
+    ]
+  },
+  "installationData": {
+    "title": "Instalación WhatsApp Project",
+    "img": "/installation.webp",
+    "imageAlt": "Image installation whatsapp project"
+  }
+}
